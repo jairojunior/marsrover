@@ -1,4 +1,4 @@
-function Rover(currentPosition, heading) {
+var Rover = function(currentPosition, heading) {
 	this.currentPosition = currentPosition;
 	this.heading = heading;
 }
